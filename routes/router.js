@@ -14,11 +14,6 @@ const connection=mysql.createConnection({
 });
 
 connection.connect(error=>{
-    if(error){
-        console.error(error);
-    }else{
-        console.log('app is now connected to mysql db!');
-    }
 }
     
 );
